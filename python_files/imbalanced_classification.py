@@ -2,6 +2,17 @@
 #
 # # Classification with imbalanced datasets
 #
+# # TOC:
+#
+# - Discuss the problem of imbalanced datasets in classification settings
+# - Relate to the meaning of rare events and thus low probability of occurrence
+# - Make the distinction between probability, well-calibrated probability, and
+#   low statistical decision metric by default
+# - Show the issue with resampling on the calibration of the model
+# - Show the effect of changing cut-off values on the decision metric
+# - Finally, show the how to tune the cut-off value to maximize a metric or a
+#   metric under constraints
+#
 # # TODO: describe what we call imbalanced datasets with classification settings
 
 # %%
